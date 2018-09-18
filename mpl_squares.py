@@ -1,5 +1,7 @@
 import matplotlib.pyplot as plt
 
+# display line chart
+
 input_values = [1, 2, 3, 4, 5]
 squares = [1, 4, 9, 16, 25]
 plt.plot(input_values, squares, linewidth=5)
@@ -9,6 +11,6 @@ plt.title("Kwadraty liczb", fontsize=24)
 plt.xlabel("Wartość", fontsize=14)
 plt.ylabel("Kwadraty wartości", fontsize=14)
 
-# Set size of labels
+# Set size of tick labels
 plt.tick_params(axis='both', labelsize=14)
 plt.show()
